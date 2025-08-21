@@ -5,10 +5,19 @@
 ### Go to app -> [Chat (Slack)](https://hexlet-chat-m0np.onrender.com)
 #### Default login & password: admin
 
-### Installation Guide:
+## Install
 
-* ```$ git clone: https://github.com/LisKurama/frontend-project-12.git```
-* ```$ make install```
-* ```$ make start``` - run the frontend & backend
-* ```$ make start-frontend``` - run only frontend
-* ```$ make start-backend``` - run only backend
+Clone the repository
+
+Go to repository directory:
+cd frontend-project-12
+cd frontend
+
+Install dependencies:
+make install
+
+Build:
+make build
+
+Start:
+make start
